@@ -6,11 +6,11 @@ if [ "$#" -lt 3 ]; then
    exit
 fi
 
-PROJECT=$1
+PROJECT=qwiklabs-gcp-00-64f5fc512f3e
 shift
-BUCKET=$1
+BUCKET=qwiklabs-gcp-00-64f5fc512f3e
 shift
-MAIN=com.google.cloud.training.dataanalyst.sandiego.$1
+MAIN=com.google.cloud.training.dataanalyst.sandiego.AverageSpeeds.java
 shift
 
 echo "Launching $MAIN project=$PROJECT bucket=$BUCKET $*"
